@@ -2,6 +2,7 @@ package com.kh.git;
 
 import com.kh.git.animal.Cat;
 import com.kh.git.animal.Dog;
+import com.kh.git.animal.Snake;
 
 public class HelloGit {
 	public static void main(String[] args) {
@@ -15,5 +16,9 @@ public class HelloGit {
 //		Cat 기능 추가
 		Cat cat = new Cat();
 		cat.miao();
+		
+//		Snake 기능 추가
+		Snake snake = new Snake();
+		snake.move();
 	}
 }
